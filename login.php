@@ -7,7 +7,7 @@
 </head>
 <body>
 
-    <h1>Login Admin Sistem Akademik</h1>
+    <h1>Login si Akademik</h1>
 
     <form>
         <label for="username">Username:</label>
