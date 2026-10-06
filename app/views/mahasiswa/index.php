@@ -14,7 +14,7 @@
 <div class="container mt-5">
 
     <div class="d-flex justify-content-between align-items-center mb-4">
-        <h2>Data Mahasiswa</h2>
+        <h2>Data Mahasiswa - ACARA 11</h2>
 
         <a href="/acara8/public/mahasiswa/create" class="btn btn-primary">
             + Tambah Mahasiswa
@@ -22,7 +22,7 @@
     </div>
 
     <!-- SEARCH -->
-    <form action="/acara8/public/mahasiswa" method="GET" class="mb-3">
+    <form action="/acara11/public/mahasiswa" method="GET" class="mb-3">
         <div class="input-group">
 
             <input
@@ -37,7 +37,7 @@
             </button>
 
             <a
-                href="/acara8/public/mahasiswa"
+                href="/acara11/public/mahasiswa"
                 class="btn btn-secondary">
                 Reset
             </a>

@@ -19,7 +19,7 @@
 
         <h2>Data Mata Kuliah</h2>
 
-        <a href="/acara8/public/matakuliah/create"
+        <a href="/acara11/public/matakuliah/create"
            class="btn btn-primary">
             + Tambah Mata Kuliah
         </a>
@@ -86,13 +86,13 @@
                             <td>
 
                                 <a
-                                    href="/acara8/public/matakuliah/edit/<?= $mk['id'] ?>"
+                                    href="/acara11/public/matakuliah/edit/<?= $mk['id'] ?>"
                                     class="btn btn-warning btn-sm">
                                     Edit
                                 </a>
 
                                 <form
-                                    action="/acara8/public/matakuliah/delete/<?= $mk['id'] ?>"
+                                    action="/acara11/public/matakuliah/delete/<?= $mk['id'] ?>"
                                     method="POST"
                                     style="display:inline;"
                                     onsubmit="return confirm('Yakin ingin menghapus data ini?');">

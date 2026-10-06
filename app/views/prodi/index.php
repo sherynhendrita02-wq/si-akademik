@@ -16,7 +16,7 @@
     <div class="d-flex justify-content-between align-items-center mb-4">
         <h2>Data Prodi</h2>
 
-        <a href="/acara8/public/prodi/create" class="btn btn-primary">
+        <a href="/acara11/public/prodi/create" class="btn btn-primary">
             + Tambah Prodi
         </a>
     </div>
@@ -61,13 +61,13 @@
                             <td>
 
                                 <a
-                                    href="/acara8/public/prodi/edit/<?= $p['id'] ?>"
+                                    href="/acara11/public/prodi/edit/<?= $p['id'] ?>"
                                     class="btn btn-warning btn-sm">
                                     Edit
                                 </a>
 
                                 <form
-                                    action="/acara8/public/prodi/delete/<?= $p['id'] ?>"
+                                    action="/acara11/public/prodi/delete/<?= $p['id'] ?>"
                                     method="POST"
                                     style="display:inline;"
                                     onsubmit="return confirm('Yakin ingin menghapus prodi ini?');">
